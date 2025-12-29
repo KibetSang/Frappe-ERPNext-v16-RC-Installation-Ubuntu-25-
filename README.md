@@ -1,6 +1,8 @@
 Step 1: Update
+
 sudo apt update -y
 sudo apt upgrade -y
+
 Step 2: Create a Frappe Userr
 It’s recommended not to run Bench as root.
 
