@@ -6,6 +6,11 @@ A step-by-step guide to installing Frappe Framework v16 (RC.1), ERPNext, and HRM
 
 Update your package lists and upgrade existing packages.
 
+```bash
+sudo apt update -y
+sudo apt upgrade -y
+
+
 Step 2: Create a Frappe User
 It is recommended not to run Bench as root. Create a dedicated user.
 
