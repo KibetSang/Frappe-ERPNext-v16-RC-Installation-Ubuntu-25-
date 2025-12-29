@@ -12,7 +12,7 @@ sudo apt upgrade -y
 Step 2: Create a Frappe User
 It is recommended not to run Bench as root. Create a dedicated user.
 
-Bash
+'''bash
 sudo adduser frappe_user
 sudo usermod -aG sudo frappe_user
 su - frappe_user
