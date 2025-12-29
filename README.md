@@ -8,3 +8,16 @@ Update your package lists and upgrade existing packages.
 
 Step 2: Create a Frappe User
 It is recommended not to run Bench as root. Create a dedicated user.
+
+
+
+Note: You can use your existing user; just replace frappe_user with your username.
+
+Step 3: Install Dependencies
+Install essential build tools, Python 3.14, and other prerequisites.
+
+
+
+
+Step 4: Install MariaDB
+Install the MariaDB database server and secure it.
