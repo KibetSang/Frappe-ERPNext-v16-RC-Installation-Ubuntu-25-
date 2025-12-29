@@ -8,3 +8,7 @@ Update your system packages to the latest versions.
 ```bash
 sudo apt update -y
 sudo apt upgrade -y
+
+
+Step 2: Create a Frappe User
+It is recommended not to run Bench as root. Create a dedicated user.
