@@ -9,3 +9,11 @@ Update your package lists and upgrade existing packages.
 ```bash
 sudo apt update -y
 sudo apt upgrade -y
+
+
+
+
+sudo adduser frappe_user
+sudo usermod -aG sudo frappe_user
+su - frappe_user
+cd /home/frappe_user
